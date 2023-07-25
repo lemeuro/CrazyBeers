@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Beer: Codable, Identifiable {
+    let id: Int
+    let name: String
+    let tagline: String
+    let image_url: String
+}

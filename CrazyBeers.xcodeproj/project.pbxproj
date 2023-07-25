@@ -11,6 +11,8 @@
 		59C2A37C2A6AD55B00147BC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2A37B2A6AD55B00147BC3 /* ContentView.swift */; };
 		59C2A37E2A6AD55C00147BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C2A37D2A6AD55C00147BC3 /* Assets.xcassets */; };
 		59C2A3812A6AD55C00147BC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C2A3802A6AD55C00147BC3 /* Preview Assets.xcassets */; };
+		59C2A3882A6AEFB400147BC3 /* PunkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2A3872A6AEFB400147BC3 /* PunkAPI.swift */; };
+		59C2A38A2A6AEFCD00147BC3 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C2A3892A6AEFCD00147BC3 /* Beer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		59C2A37B2A6AD55B00147BC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59C2A37D2A6AD55C00147BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C2A3802A6AD55C00147BC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59C2A3872A6AEFB400147BC3 /* PunkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAPI.swift; sourceTree = "<group>"; };
+		59C2A3892A6AEFCD00147BC3 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				59C2A3792A6AD55B00147BC3 /* CrazyBeersApp.swift */,
 				59C2A37B2A6AD55B00147BC3 /* ContentView.swift */,
+				59C2A3872A6AEFB400147BC3 /* PunkAPI.swift */,
+				59C2A3892A6AEFCD00147BC3 /* Beer.swift */,
 				59C2A37D2A6AD55C00147BC3 /* Assets.xcassets */,
 				59C2A37F2A6AD55C00147BC3 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C2A37C2A6AD55B00147BC3 /* ContentView.swift in Sources */,
+				59C2A3882A6AEFB400147BC3 /* PunkAPI.swift in Sources */,
 				59C2A37A2A6AD55B00147BC3 /* CrazyBeersApp.swift in Sources */,
+				59C2A38A2A6AEFCD00147BC3 /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class PunkAPI: ObservableObject {
+    @Published var beers = [Beer]()
+}
